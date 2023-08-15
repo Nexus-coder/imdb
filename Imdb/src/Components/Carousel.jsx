@@ -32,7 +32,7 @@ export default function Carousel(
                    <ArrowPrev />
                     <ArrowNext/>
                 </div>
-                <img className="object-cover w-full h-full" src={image} alt="" />
+                <img className="object-fill w-full h-full" src={image} alt="" />
             </div>
             <div className="flex flex-col gap-2 w-3/12">
                 <h2 className="text-5xl font-bold ml-4">Up Next</h2>
