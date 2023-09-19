@@ -21,9 +21,10 @@
   ::-webkit-scrollbar{
     display: none;
   }
+
   .slide{
     animation-name: slide-in;
-    animation-duration: 1s;
+    animation-duration: calc(var(--i)* 0.3s);
     animation-timing-function: ease-in;
     animation-fill-mode: both;
 
@@ -31,14 +32,11 @@
 
   @keyframes slide-in {
     from{
-      opacity:0;
-      @apply translate-x-full
+      transform: translateX(100vw)
     }
-    50%{
-      opacity:50%;
-    }
+
     to{
-      @apply translate-x-0;
+      transform: translateX(0);
 
     }
   }

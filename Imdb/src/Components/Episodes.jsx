@@ -1,6 +1,6 @@
 export default function Episodes() {
   return (
-    <section className="grid grid-cols-2 grid-rows-2 border-4 p-4">
+    <section aria-label="Episodes section" className="grid grid-cols-2 grid-rows-2 border-4 p-4">
                 <div className="border-4">
                     <p>Episodes</p>
                     <button>Watchlist</button>

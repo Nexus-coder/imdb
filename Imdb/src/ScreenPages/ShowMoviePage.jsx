@@ -10,7 +10,7 @@ export default function ShowMoviePage({ props }) {
     console.log(data)
     const { genres, image, name, ended, summary } = data;
     return (
-        <div className="w-10/12 mx-auto p-5 bg-slate-950">
+        <div className="w-10/12 mx-auto p-5 ">
             <section>
                 <nav>
                     <ul className="flex gap-3 text-2xl  font-bold">
